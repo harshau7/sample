@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently --kill-others \"node ../express/mongodb.js\" \"react-scripts start\"",
+    "start": "concurrently --kill-others \"node ./public/mongodb.js\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
